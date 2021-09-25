@@ -13,8 +13,8 @@ module.exports = {
         repo: "git@github.com:deepuRai/nodejs_sample_app.git",
         ref: "origin/main",
         
-        "post-deploy": "npm i; pm2 reload ecosystem.config.js --env production",
-        "ssh_options": "StrictHostKeyChecking=no"
+        "post-deploy": "npm i; pm2 reload ecosystem.config.js --env production"
+        
       }
     }
   };
