@@ -2,7 +2,7 @@ module.exports = {
     apps: [
       {
         name: "pm2-deploy",
-        script: "app.js",
+        script: "node ./bin/www",
       },
     ],
     deploy: {
